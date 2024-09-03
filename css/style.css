@@ -373,7 +373,6 @@ main.min-main {
 
 .homepage a:hover {
   color: #85c1e9;
-  font-size: 30px;
 }
 
 .homepage h1 span,
@@ -460,7 +459,7 @@ main.min-main {
 }
 
 .articles article ul li {
-  border-bottom: #8e44ad 2.5px solid;
+  border-bottom: #8e44ad 3px solid;
 }
 
 .articles article a {
@@ -475,7 +474,6 @@ main.min-main {
 
 .articles article a:hover {
   color: #85c1e9;
-  font-size: 22px;
 }
 
 /* using the has() relational pseudo selector to update our custom properties */
@@ -770,6 +768,10 @@ ul {
   margin-right: 15px;
   font-size: 22px;
   color: #fff;
+}
+
+.contact-info .social a:hover {
+  color: #85c1e9;
 }
 
 /*RESPONSIVE DESIGN*/
