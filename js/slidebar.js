@@ -1,3 +1,4 @@
+const icon = document.getElementById("icon");
 const slidebar = document.querySelector(".slidebar");
 const spans = document.querySelectorAll("span");
 const menu = document.querySelector(".menu");
@@ -21,7 +22,7 @@ menu.addEventListener("click", () => {
   }
 });
 
-menu.addEventListener("click", () => {
+icon.addEventListener("click", () => {
   slidebar.classList.toggle("mini-slidebar");
   main.classList.toggle("min-main");
   spans.forEach((span) => {

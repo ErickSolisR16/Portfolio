@@ -1,8 +1,6 @@
 # Portfolio
 My professional portfolio 
 
-![](./imgs/logo/Logo.webp)
-
 ## Table of content
 
 - [Tech Stack](#tech-stack)
